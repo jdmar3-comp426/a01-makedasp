@@ -1,0 +1,94 @@
+body{
+    background-color: #fff0C5;
+}
+
+h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: #702963;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #702963;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #967bb6;
+}
+
+li{
+    display: inline;
+    float: left;
+    border-right: 2px solid #ffffff;
+}
+
+li a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: #fce883;
+    color: #000000;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+#homeimg{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;   
+}
+
+#homeimgcaption{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.leftimg{
+    float: left;
+}
+
+.rightimg{
+    float: right;
+}
+
+figure img{
+    width: 750px;
+}
+
+figcaption{
+    width: 750px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
